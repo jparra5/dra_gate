@@ -53,7 +53,7 @@ if [ -n "${SERVER}" ] && [ "${SERVER}" != " " ]; then
 fi
 
 
-echo -e "\tFINAL dra_grunt_command: $dra_grunt_command"
+echo -e "FINAL dra_grunt_command: $dra_grunt_command"
 echo ""
 
 
