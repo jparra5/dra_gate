@@ -13,24 +13,12 @@
             "default_value": "",
             "label_key": "CRITERIA_KEY",
             "desc_key": "CRITERIA_DESC"
-        },
-        {
-            "name": "SERVER",
-            "type": "Text",
-            "required": "false",
-            "default_value": "",
-            "label_key": "SERVER_KEY",
-            "desc_key": "SERVER_DESC"
         }
     ],
     "outputs": [
         {
             "type": "Artifacts",
             "inclusion" : "always"
-        },
-        {
-            "type": "Tests",
-            "inclusion": "optional"
         }
     ],
     "execution": {

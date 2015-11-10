@@ -48,9 +48,9 @@ fi
 dra_grunt_command="grunt --gruntfile=node_modules/grunt-idra/idra.js -decision=${CRITERIA}"
 
 
-if [ -n "${SERVER}" ] && [ "${SERVER}" != " " ]; then
-    dra_grunt_command="$dra_grunt_command -deployAnalyticsServer=${SERVER}"
-fi
+#if [ -n "${SERVER}" ] && [ "${SERVER}" != " " ]; then
+#    dra_grunt_command="$dra_grunt_command -deployAnalyticsServer=${SERVER}"
+#fi
 
 
 echo -e "FINAL dra_grunt_command: $dra_grunt_command"
